@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SistemaSolarAPP</string>
+    <string-array name="planetas">
+        <item>Mercúrio</item>
+        <item>Vênus</item>
+        <item>Terra</item>
+        <item>Marte</item>
+        <item>Júpiter</item>
+        <item>Saturno</item>
+        <item>Urano</item>
+        <item>Netuno</item>
+        <item>Mas e Plutão?</item>
+    </string-array>
+</resources>

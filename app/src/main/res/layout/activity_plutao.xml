@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Plutao">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:background="#000000"
+        android:textColor="#FFFFFF">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="211dp"
+            android:layout_marginTop="70dp"
+            android:radius="60dp"
+            android:src="@drawable/plutao" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FF9800"
+            android:layout_marginTop="60dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Plutão"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/subtitlePlanetas"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="O planeta que foi promovido a Planeta Anão"
+            />
+
+        <TextView
+            android:id="@+id/textPlaneta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Durante 76 anos, Plutão foi o nono e menor planeta do sistema solar. Sua lua, Charon, tem metade do seu tamanho, e sua órbita é inclinada e excêntrica, mas suas peculiaridades faziam dele um querido planeta pela população. Desde 2006, foi descoberto que Plutão tem uma atmosfera e talvez até nuvens. Assim como montanhas feitas de gelo, campos de nitrogênio congelado, picos cobertos de metano, dunas e vulcões. O ex-planeta segue em estudos."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

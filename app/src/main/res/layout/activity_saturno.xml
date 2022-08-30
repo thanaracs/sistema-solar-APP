@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Saturno">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:background="#000000"
+        android:textColor="#FFFFFF">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="211dp"
+            android:layout_marginTop="70dp"
+            android:radius="60dp"
+            android:src="@drawable/saturno" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FF9800"
+            android:layout_marginTop="60dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Saturno"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/subtitlePlanetas"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="O Planeta dos anéis"
+            />
+
+        <TextView
+            android:id="@+id/textPlaneta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Ele é o segundo maior em extensão territorial e é formado predominantemente por gases. Seu complexo sistema de anéis é o mais desenvolvido entre os planetas gasosos. As temperaturas em Saturno, assim como nos outros planetas gasosos, são bastante baixas. Ele possui diversos satélites naturais."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

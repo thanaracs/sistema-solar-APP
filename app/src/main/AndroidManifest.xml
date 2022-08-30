@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.thainaracarvalho.sistemasolarapp">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/espaco"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/espaco"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SistemaSolarAPP"
+        tools:targetApi="28">
+        <activity
+            android:name=".Plutao"
+            android:exported="false" />
+        <activity
+            android:name=".Netuno"
+            android:exported="false" />
+        <activity
+            android:name=".Urano"
+            android:exported="false" />
+        <activity
+            android:name=".Saturno"
+            android:exported="false" />
+        <activity
+            android:name=".Jupiter"
+            android:exported="false" />
+        <activity
+            android:name=".Marte"
+            android:exported="false" />
+        <activity
+            android:name=".Terra"
+            android:exported="false" />
+        <activity
+            android:name=".Venus"
+            android:exported="false" />
+        <activity
+            android:name=".Mercurio"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

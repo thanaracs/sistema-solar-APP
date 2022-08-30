@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Thainara/AndroidStudioProjects/SistemaSolarAPP/app/src/main/res/layout/activity_jupter.xml" value="0.13069908814589665" />
+        <entry key="..\:/Users/Thainara/AndroidStudioProjects/SistemaSolarAPP/app/src/main/res/layout/activity_main.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Thainara/AndroidStudioProjects/SistemaSolarAPP/app/src/main/res/layout/activity_marte.xml" value="0.13069908814589665" />
+        <entry key="..\:/Users/Thainara/AndroidStudioProjects/SistemaSolarAPP/app/src/main/res/layout/activity_mercurio.xml" value="0.33" />
+        <entry key="..\:/Users/Thainara/AndroidStudioProjects/SistemaSolarAPP/app/src/main/res/layout/activity_netuno.xml" value="0.12386018237082067" />
+        <entry key="..\:/Users/Thainara/AndroidStudioProjects/SistemaSolarAPP/app/src/main/res/layout/activity_plutao.xml" value="0.33" />
+        <entry key="..\:/Users/Thainara/AndroidStudioProjects/SistemaSolarAPP/app/src/main/res/layout/activity_saturno.xml" value="0.12386018237082067" />
+        <entry key="..\:/Users/Thainara/AndroidStudioProjects/SistemaSolarAPP/app/src/main/res/layout/activity_terra.xml" value="0.15172101449275363" />
+        <entry key="..\:/Users/Thainara/AndroidStudioProjects/SistemaSolarAPP/app/src/main/res/layout/activity_urano.xml" value="0.12386018237082067" />
+        <entry key="..\:/Users/Thainara/AndroidStudioProjects/SistemaSolarAPP/app/src/main/res/layout/activity_venus.xml" value="0.26875" />
+        <entry key="..\:/Users/Thainara/AndroidStudioProjects/SistemaSolarAPP/app/src/main/res/layout/row.xml" value="0.2677083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
